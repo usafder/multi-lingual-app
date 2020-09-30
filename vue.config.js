@@ -5,6 +5,14 @@ module.exports = {
       fallbackLocale: 'en',
       localeDir: 'locales',
       enableInSFC: true
+    },
+    quasar: {
+      importStrategy: 'kebab',
+      rtlSupport: false
     }
-  }
+  },
+
+  transpileDependencies: [
+    'quasar'
+  ]
 }
