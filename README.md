@@ -1,2 +1,2 @@
 # multi-lingual-app
- A simple vue app using i18n for supporting multiple languages.
+A basic Vue app integrated with Quasar framework using i18n for supporting multiple languages.
