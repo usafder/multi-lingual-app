@@ -1,3 +1,10 @@
 {
-  "hello": "Hello World"
+  "hello": "Hello World",
+  "lang": "Language",
+  "message": "You are on {pageName} page",
+  "drawerMenu": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  }
 }

@@ -1,3 +1,10 @@
 {
-  "hello": "こんにちは世界"
+  "hello": "こんにちは世界",
+  "lang": "言語",
+  "message": "あなたは{pageName}ページにいます",
+  "drawerMenu": {
+    "home": "家",
+    "about": "約",
+    "contact": "連絡先"
+  }
 }

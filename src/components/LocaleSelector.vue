@@ -1,19 +1,20 @@
 <template>
-  <div>
-    <p>Select Locale</p>
-    <select v-model="$i18n.locale" style="">
-      <option v-for="(value, index) in langs" :key="index" :value="value">
-        {{ value }}
-      </option>
-    </select>
-  </div>
+  <q-select
+    v-model="$i18n.locale"
+    :options="options"
+    :label="$t('lang')"
+    bg-color="white"
+    outlined
+    dense
+  />
 </template>
 
 <script>
 export default {
   name: "LocaleSelector",
-  data() {
-    return { langs: ["en", "fr", "ja"] };
+
+  props: {
+    options: { type: Array },
   },
 };
 </script>
